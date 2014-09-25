@@ -1,0 +1,27 @@
+<html>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about_me">About Me</a></li>
+        <li><a href="/posts/:blogtitle">Blog</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <!-- <li><a></a></li> -->
+      </ul>
+  </nav>
+  </header>
+  <!-- <hr> -->
+    <div id="content">
+
+      <%=yield %>
+
+    </div>
+  <!-- <hr> -->
+</body>
+</html>
