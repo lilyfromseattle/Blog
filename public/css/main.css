@@ -2,6 +2,9 @@ body {
   font-family: 'Pacifico', cursive;
   color: black;
   background: radial-gradient(white, 79C7C3);
+  padding: 0;
+  margin:0;
+  size: 100%;
 }
 
 header {
@@ -81,16 +84,31 @@ text-shadow: 1px 1px 2px grey;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
 }
 
-.post {
-  border-radius: 25px;
+.about {
+  margin-top: 6%;
+  /*border-radius: 25px;*/
 	background-color:rgba(255,255,255,0.5);
 	/*z-index:20;*/
 	/*postition :absolute;*/
 	/*box-shadow: 2px 2px 2px black;*/
 	/*margin-bottom: 5%;*/
+  margin-left: 0;
+
+  width: 100%;
+  /*float: left*/
+}
+
+.post {
+  border-radius: 25px;
+  background-color:rgba(255,255,255,0.5);
+  /*z-index:20;*/
+  /*postition :absolute;*/
+  /*box-shadow: 2px 2px 2px black;*/
+  /*margin-bottom: 5%;*/
   padding: 2%;
   margin: 2%;
 }
+
 
 
 /*.blogdate {
@@ -103,9 +121,9 @@ text-shadow: 1px 1px 2px grey;
   margin-right:auto;
 	/*width: 300px;
 	height: 300px;*/
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
+	border-radius: 11em;
+	-webkit-border-radius: 11em;
+	-moz-border-radius: 11em;
 	/*background: url('../images/me.jpg') repeat;*/
   /*background-size: 100%;*/
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -118,7 +136,9 @@ text-shadow: 1px 1px 2px grey;
   }
 
   #myname {
-    margin-top: 5px
+    margin: 0% 2% 2% 2%;
+    font-size: 5em;
+    padding-top: 0;
   }
 
 .bloglink {
@@ -146,29 +166,67 @@ text-shadow: 1px 1px 2px grey;
 /*Dark turqoise -61ADAA*/
 
 #about {
-  background: url('../images/me2.jpg') repeat;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  background: url('../images/me4.jpg') repeat;
   background-size: 100%;
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 70%;
   margin-bottom: 5%;
 }
 
 #portrait {
   background: url('../images/me.jpg') repeat;
   background-size: 100%;
-  width: 300px;
-  height: 300px;
+  width: 22em;
+  height: 22em;
+  /*300px*/
 }
 
+
+.squarepic {
+  margin-left: auto;
+  margin-right:auto;
+  /*width: 300px;
+  height: 300px;*/
+  /*border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;*/
+  /*background: url('../images/me.jpg') repeat;*/
+  /*background-size: 100%;*/
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
 .contactimage {
+  width: 80px;
+  height: 80px;
+  margin: .5% 1.5% .5% 2.5%;
+  padding: .5% 1.5% .5% .5%;
+
+}
+
+.contactimage:hover {
   width: 80px;
   height: 80px;
   margin: .5% 1.5% .5% 1.5%;
   padding: .5% 1.5% .5% 1.5%;
+  opacity: .6;
+  /*width: 85px;
+  height: 85px;*/
 
 }
 
 
+.bio {
+  margin: 2%;
+  padding: 2%;
+}
+
+p {
+  color: 5C5C5C;
+}
 
 #contact {
   padding: 2%;
@@ -176,4 +234,16 @@ text-shadow: 1px 1px 2px grey;
 
   border-radius: 25px;
   background-color:rgba(255,255,255,0.5);
+}
+
+#aboutme {
+  text-shadow: 1px 1px 2px grey;
+  text-align: center;
+  font-size: 2.9em;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
+  margin: 1%;
+}
+
+#byme {
+  margin-top:10%
 }
