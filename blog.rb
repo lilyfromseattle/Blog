@@ -1,8 +1,14 @@
 require 'sinatra'
+require './lib/post'
 
 class MyApp < Sinatra::Base
   get "/" do
     erb :index
+  end
+
+  get "/posts" do
+    @posts = Post.all
+    erb :posts
   end
 
 #Named parameter
@@ -23,7 +29,5 @@ class MyApp < Sinatra::Base
     erb "/posts/#{post}".to_sym
   end
 
-  get "/posts" do
-    
-  end
+
 end

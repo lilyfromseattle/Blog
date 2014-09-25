@@ -1,19 +1,21 @@
 body {
   font-family: 'Pacifico', cursive;
   color: black;
-  background: radial-gradient(white, coral);
+  background: radial-gradient(white, 79C7C3);
 }
 
 header {
   position: fixed;
+  z-index: 100;
   width: 100%;
   height: 3em;
-  opacity: .9;
+  opacity: .8;
   box-shadow: 2px 2px 2px black;
   top: 0;
   left: 0;
   padding-bottom: 20px;
-  background: url('../images/dots.png') repeat;
+  background: url('../images/ikat.jpg') repeat;
+  /*background-size: 30%;*/
   background-size: 30%;
 
 
@@ -28,11 +30,16 @@ a {
 	-webkit-duration: 1s;
 	-moz-duration: 1s;
   width: 10%;
-	text-shadow: 2px 2px 2px coral;
+	text-shadow: 2px 2px 2px grey;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.75)), to(rgba(0,0,0,1)));
+
+
 }
 
+/*blue - 80D1D1*/
+
 a:hover {
-  text-shadow: 2px 2px 2px chartreuse;
+  text-shadow: 2px 2px 2px coral;
 	transition-duration: 1s;
 	-webkit-duration: 1s;
 	-moz-duration: 1s;
@@ -41,12 +48,12 @@ nav {
 	text-align: center;
 }
 
-ul {
+.navbar {
   padding-top: 0px;
 	list-style: none;
 }
 
-li {
+.links {
 
 	display: inline-block;
 	text-align: center;
@@ -60,13 +67,17 @@ li {
   text-align: center;
 }
 
-h1 {
-  text-shadow: 2px 2px 2px white;
+.title {
+  text-shadow: 1px 1px 2px grey;
+  text-align: center;
+  font-size: 2.9em;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
 
 }
 
-#name {
-  font-size: 3em;
+.name {
+text-shadow: 1px 1px 2px grey;
+  font-size: 3.5em;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
 }
 
@@ -82,7 +93,87 @@ h1 {
 }
 
 
-.date {
+/*.blogdate {
   text-shadow: 2px 2px 2px white;
 
+}*/
+
+.circular {
+  margin-left: auto;
+  margin-right:auto;
+	/*width: 300px;
+	height: 300px;*/
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	/*background: url('../images/me.jpg') repeat;*/
+  /*background-size: 100%;*/
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	}
+
+  #tagline {
+    font-size: 2em;
+  }
+
+  #myname {
+    margin-top: 5px
+  }
+
+.bloglink {
+  text-align: center;
+  font-size: 2em;
+}
+
+.bloglinks {
+  list-style: none;
+}
+
+.blogtitle {
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
+  text-shadow: 1px 1px 2px grey;
+  text-align: center;
+  font-size: 2.25em;
+}
+
+.blogdate {
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
+  text-shadow: px 2px 2px 79C7C3;
+  /*color: 79C7C3;*/
+  font-size: 1.75em;
+}
+/*Dark turqoise -61ADAA*/
+
+#about {
+  background: url('../images/me2.jpg') repeat;
+  background-size: 100%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 5%;
+}
+
+#portrait {
+  background: url('../images/me.jpg') repeat;
+  background-size: 100%;
+  width: 300px;
+  height: 300px;
+}
+
+.contactimage {
+  width: 80px;
+  height: 80px;
+  margin: .5% 1.5% .5% 1.5%;
+  padding: .5% 1.5% .5% 1.5%;
+
+}
+
+
+
+#contact {
+  padding: 2%;
+  margin: 3%;
+
+  border-radius: 25px;
+  background-color:rgba(255,255,255,0.5);
 }
