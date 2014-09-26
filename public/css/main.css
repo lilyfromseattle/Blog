@@ -306,19 +306,28 @@ a:hover#menu-icon {
 
 @media screen and (max-width: 768px) {
 
-  	body {
-		background-size: 100%;
-		max-width: 100%;
+  body {
+  	background-size: 100%;
+  	max-width: 100%;
     background-attachment: fixed;
   }
 
 
-   header {
+  header {
     position: fixed;
   }
 
   nav {
     float: right;
+  }
+
+  #myname {
+    font-size: 3.5em;
+  }
+
+  #portrait {
+    width: 15em;
+    hight: 15em;
   }
 
   #menu-icon {
