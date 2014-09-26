@@ -384,7 +384,7 @@ a:hover#menu-icon {
 
   nav:hover ul {
 
-    display: block;
+    display: inline-block;
 
   }
 
