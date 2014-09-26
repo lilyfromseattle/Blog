@@ -354,7 +354,7 @@ a:hover#menu-icon {
     color: white;
   }
 
-  nav ul, nav:hover ul {
+  nav ul {
 
     display: none;
     position: absolute;
