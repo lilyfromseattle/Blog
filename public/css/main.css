@@ -309,6 +309,7 @@ a:hover#menu-icon {
   	body {
 		background-size: 100%;
 		max-width: 100%;
+    background-attachment: fixed;
   }
 
 
