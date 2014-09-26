@@ -20,10 +20,12 @@ header {
   background: url('../images/ikat.jpg') repeat;
   /*background-size: 30%;*/
   background-size: 30%;
-
-
-
 }
+
+/*li a {
+	width: 10%;
+	text-shadow: 2px 2px 2px black;
+}*/
 
 a {
   color: black;
@@ -32,23 +34,25 @@ a {
 	transition-duration: 1s;
 	-webkit-duration: 1s;
 	-moz-duration: 1s;
-  width: 10%;
+  /*width: 10%;*/
 	text-shadow: 2px 2px 2px grey;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.75)), to(rgba(0,0,0,1)));
-
-
 }
 
 /*blue - 80D1D1*/
 
-a:hover {
+li a:hover {
   text-shadow: 2px 2px 2px coral;
 	transition-duration: 1s;
 	-webkit-duration: 1s;
 	-moz-duration: 1s;
 }
 nav {
-	text-align: center;
+	/*text-align: center;*/
+  padding: 20px;
+	padding-top: 5px;
+	padding-left: 0;
+	/*float: right;*/
 }
 
 .navbar {
@@ -57,7 +61,6 @@ nav {
 }
 
 .links {
-
 	display: inline-block;
 	text-align: center;
 	padding: 0 3% 0 3%;
@@ -70,20 +73,22 @@ nav {
   text-align: center;
 }
 
+/*Titles for pages i.e. 'About Me'*/
 .title {
   text-shadow: 1px 1px 2px grey;
   text-align: center;
   font-size: 2.9em;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
-
 }
 
+/*My name on title page*/
 .name {
 text-shadow: 1px 1px 2px grey;
   font-size: 3.5em;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
 }
 
+/*'About me' div*/
 .about {
   margin-top: 6%;
   /*border-radius: 25px;*/
@@ -93,11 +98,11 @@ text-shadow: 1px 1px 2px grey;
 	/*box-shadow: 2px 2px 2px black;*/
 	/*margin-bottom: 5%;*/
   margin-left: 0;
-
   width: 100%;
   /*float: left*/
 }
 
+/*Blog post div*/
 .post {
   border-radius: 25px;
   background-color:rgba(255,255,255,0.5);
@@ -116,6 +121,7 @@ text-shadow: 1px 1px 2px grey;
 
 }*/
 
+/*Circular photo with drop shadow*/
 .circular {
   margin-left: auto;
   margin-right:auto;
@@ -144,12 +150,16 @@ text-shadow: 1px 1px 2px grey;
 .bloglink {
   text-align: center;
   font-size: 2em;
+
 }
 
+/*links to blog posts*/
 .bloglinks {
   list-style: none;
+  color: 5C5C5C;
 }
 
+/*Title of blog*/
 .blogtitle {
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
   text-shadow: 1px 1px 2px grey;
@@ -157,6 +167,7 @@ text-shadow: 1px 1px 2px grey;
   font-size: 2.25em;
 }
 
+/*Blog date of creation*/
 .blogdate {
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
   text-shadow: px 2px 2px 79C7C3;
@@ -165,17 +176,20 @@ text-shadow: 1px 1px 2px grey;
 }
 /*Dark turqoise -61ADAA*/
 
+/*'About Me' photo*/
 #about {
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  background: url('../images/me4.jpg') repeat;
+  background: url('../images/me4.jpg') ;
   background-size: 100%;
   width: 100%;
-  height: 70%;
+  /*height: 20em;*/
+  height: 50%;
   margin-bottom: 5%;
 }
 
+/*Main page photo*/
 #portrait {
   background: url('../images/me.jpg') repeat;
   background-size: 100%;
@@ -184,7 +198,7 @@ text-shadow: 1px 1px 2px grey;
   /*300px*/
 }
 
-
+/*Square pics with shadow - like in about me*/
 .squarepic {
   margin-left: auto;
   margin-right:auto;
@@ -199,6 +213,8 @@ text-shadow: 1px 1px 2px grey;
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
+
+/*Social media icons*/
 .contactimage {
   width: 80px;
   height: 80px;
@@ -207,6 +223,7 @@ text-shadow: 1px 1px 2px grey;
 
 }
 
+/*Social Media icons - hover*/
 .contactimage:hover {
   width: 80px;
   height: 80px;
@@ -218,7 +235,7 @@ text-shadow: 1px 1px 2px grey;
 
 }
 
-
+/*About me text paragraphs*/
 .bio {
   margin: 2%;
   padding: 2%;
@@ -228,14 +245,15 @@ p {
   color: 5C5C5C;
 }
 
+/*'Contact' Me div*/
 #contact {
   padding: 2%;
   margin: 3%;
-
   border-radius: 25px;
   background-color:rgba(255,255,255,0.5);
 }
 
+/*'About Me' title text*/
 #aboutme {
   text-shadow: 1px 1px 2px grey;
   text-align: center;
@@ -244,6 +262,111 @@ p {
   margin: 1%;
 }
 
+/*'Website by Lily'*/
 #byme {
   margin-top:10%
+}
+/*
+Mobile Nav icon - hover*/
+a:hover#menu-icon {
+  background-color: grey;
+  border-radius: 4px;
+  transition-duration: 1s;
+  -webkit-duration: 1s;
+  -moz-duration: 1s;
+}
+
+/*Mobile Nav icon*/
+#menu-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: 79C7C3 url('../images/menu-icon.png') center;
+  margin-top: 20%;
+  margin-right: 0em;
+  transition-duration: 1s;
+  -webkit-duration: 1s;
+  -moz-duration: 1s;
+  box-shadow: 2px 2px 2px grey;
+}
+
+#logo{
+
+  margin: 20px;
+  margin-right: 0;
+  padding-right: 0;
+  float: left;
+  width: 100px;
+  height: 40px;
+  background: url(../images/logo3.png) no-repeat center;
+  display: block;
+
+}
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 768px) {
+
+  	body {
+		background-size: 100%;
+		max-width: 100%;
+  }
+
+
+   header {
+
+    position: fixed;
+
+  }
+
+  nav {
+    float: right;
+  }
+
+  #menu-icon {
+    display:inline-block;
+    /*margin: 2%;
+    padding:2%;*/
+    /*border-radius: .3em;
+    box-shadow: 2px 2px 2px grey;*/
+  }
+
+  nav a {
+    color: white;
+  }
+
+  nav ul, nav:active ul {
+
+    display: none;
+    position: absolute;
+    /*padding: 20px;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 2px;
+    padding-right: 10px;
+    text-align: center;
+    background: -webkit-linear-gradient(grey, black, grey);
+    border: 5px solid #444;
+    right: 16px;
+    top: 52px;
+    width: 30%;
+    border-radius: 4px 0 4px 4px;
+    color: 79C7C3;
+
+  }
+
+  nav li {
+
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    /*color: 79C7C3;*/
+  }
+
+  nav:hover ul {
+
+    display: block;
+
+  }
+
 }
