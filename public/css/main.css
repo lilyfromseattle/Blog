@@ -291,14 +291,13 @@ a:hover#menu-icon {
 }
 
 #logo{
-
   margin: 20px;
   margin-right: 0;
   padding-right: 0;
   float: left;
   width: 100px;
   height: 40px;
-  background: url(../images/logo3.png) no-repeat center;
+  /*background: url(../images/logo3.png) no-repeat center;*/
   display: hidden;
 
 }
