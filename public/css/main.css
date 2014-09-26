@@ -386,9 +386,9 @@ a:hover#menu-icon {
     display: block;
   }
 
-  .links:active nav ul {
+  /*.links:active nav ul {
     display: hidden;
-  }
+  }*/
 
   #about {
     height: 50%;
