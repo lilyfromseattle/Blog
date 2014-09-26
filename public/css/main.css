@@ -383,9 +383,11 @@ a:hover#menu-icon {
   }
 
   nav:hover ul {
+    display: block;
+  }
 
-    display: inline-block;
-
+  .links:active nav ul {
+    display: hidden;
   }
 
   #about {
