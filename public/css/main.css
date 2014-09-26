@@ -42,7 +42,7 @@ a {
 /*blue - 80D1D1*/
 
 li a:hover {
-  text-shadow: 2px 2px 2px coral;
+  text-shadow: 2px 2px 2px black;
 	transition-duration: 1s;
 	-webkit-duration: 1s;
 	-moz-duration: 1s;
@@ -264,13 +264,15 @@ p {
 
 /*'Website by Lily'*/
 #byme {
-  margin-top:10%
+  margin-top:10%;
+  font-family: 'Pacifico';
+  font-size: 1em;
 }
 /*
 Mobile Nav icon - hover*/
 a:hover#menu-icon {
   background-color: grey;
-  border-radius: 4px;
+  /*border-radius: 4px;*/
   transition-duration: 1s;
   -webkit-duration: 1s;
   -moz-duration: 1s;
@@ -278,6 +280,7 @@ a:hover#menu-icon {
 
 /*Mobile Nav icon*/
 #menu-icon {
+  border-radius: 4px;
   display: hidden;
   width: 40px;
   height: 40px;
@@ -287,7 +290,7 @@ a:hover#menu-icon {
   transition-duration: 1s;
   -webkit-duration: 1s;
   -moz-duration: 1s;
-  box-shadow: 2px 2px 2px grey;
+  /*box-shadow: 2px 2px 2px grey;*/
 }
 
 #logo{
@@ -382,8 +385,8 @@ a:hover#menu-icon {
     margin: 0;
     /*color: 79C7C3;*/
   }
-
-  nav:hover ul {
+  nav:hover ul,
+  nav:focus ul {
     display: block;
   }
 
