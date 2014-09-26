@@ -322,12 +322,18 @@ a:hover#menu-icon {
   }
 
   #myname {
+    margin-top: 10%;
     font-size: 3.5em;
   }
 
   #portrait {
     width: 15em;
-    hight: 15em;
+    height: 15em;
+  }
+
+  p {
+    font-size: 1em;
+
   }
 
   #menu-icon {
